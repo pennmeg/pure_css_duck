@@ -73,8 +73,23 @@ body {
   position: absolute;
   width: 16%;
   height: 11%;
-  bottom: 30%;
+  bottom: 25%;
   left: 60%;
   background-color: black;
   border-radius: 50%;
+}
+#beak-1, #beak-2 {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  bottom: -25%;
+  left: 20%;
+  -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+#beak-1 {
+  background-color: #ffa500;
+}
+#beak-2 {
+  background-color: #e59400;
 }
