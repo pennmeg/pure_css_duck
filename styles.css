@@ -73,17 +73,36 @@ body {
   position: absolute;
   width: 16%;
   height: 11%;
-  bottom: 25%;
+  bottom: 23%;
   left: 60%;
   background-color: black;
   border-radius: 50%;
+}
+.glasses {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  bottom: 3%;
+  left: 53%;
+  background-color: rgba(0,0,0,0.3);
+  border: 10px black solid;
+  border-radius: 50%;
+}
+#glass-mid {
+  position: absolute;
+  width: 20%;
+  height: 3%;
+  bottom: 15%;
+  left: 90%;
+  background-color: black;
+  z-index: 2;
 }
 #beak-1, #beak-2 {
   position: absolute;
   width: 80%;
   height: 40%;
   bottom: -25%;
-  left: 20%;
+  left: 20.5%;
   -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
   clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
