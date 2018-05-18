@@ -9,21 +9,6 @@ body {
   width: 600px;
   height: 600px;
 }
-#face-1, #face-2 {
-  position: absolute;
-  width: 40%;
-  height: 60%;
-  border-radius: 75% 0% 0% 0%;
-}
-#face-1 {
-  left: 10%;
-  background-color: white;
-}
-#face-2 {
-  transform: rotateY(180deg);
-  background-color: #f2f2f2;
-  right: 10%;
-}
 .hat-1 {
   position: absolute;
   background-color: #323232;
@@ -69,6 +54,33 @@ body {
   border-top-right-radius: 40%;
   border-bottom-right-radius: 40%;
 }
+#face-1, #face-2 {
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  border-radius: 75% 0% 0% 0%;
+}
+#face-1 {
+  left: 10%;
+}
+#face-2 {
+  right: 10%;
+  transform: rotateY(180deg);
+}
+.face-1 {
+  background-color: white;
+}
+.face-2 {
+  background-color: #f2f2f2;
+}
+.side {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  bottom: 0%;
+  left: -20%;
+  border-radius: 90% 0% 0% 75%;
+}
 .eye {
   position: absolute;
   width: 16%;
@@ -97,7 +109,7 @@ body {
   background-color: black;
   z-index: 2;
 }
-#beak-1, #beak-2 {
+.beak {
   position: absolute;
   width: 80%;
   height: 40%;
