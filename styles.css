@@ -24,36 +24,37 @@ body {
   background-color: #f2f2f2;
   right: 10%;
 }
-#hat-1, #hat-2 {
+.hat-1 {
   position: absolute;
+  background-color: #323232;
+}
+.hat-2 {
+  position: absolute;
+  background-color: black;
+}
+#hat-1, #hat-2 {
   width: 15%;
   height: 20%;
   top: -10%;
 }
 #hat-1 {
   left: 35%;
-  background-color: #323232;
 }
 #hat-2 {
   right: 35%;
-  background-color: black;
 }
 #hat-top-1, #hat-top-2 {
-  position: absolute;
   width: 100%;
   height: 80%;
   top: -75%;
 }
 #hat-top-1 {
-  background-color: #323232;
   border-top-left-radius: 100%;
 }
 #hat-top-2 {
-  background-color: black;
   border-top-right-radius: 100%;
 }
 #brim-1, #brim-2 {
-  position: absolute;
   width: 15%;
   height: 9%;
   top: -5%;
@@ -62,12 +63,18 @@ body {
   left: 30%;
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
-  background-color: #323232;
 }
 #brim-2 {
   right: 30%;
   border-top-right-radius: 40%;
   border-bottom-right-radius: 40%;
+}
+.eye {
+  position: absolute;
+  width: 16%;
+  height: 11%;
+  bottom: 30%;
+  left: 60%;
   background-color: black;
-
+  border-radius: 50%;
 }
